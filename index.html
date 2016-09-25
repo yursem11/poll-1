@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>First poll</title>
+</head>
+<body>
+    <header>
+        <img src="doveryayut-socissledovaniyam.jpg" alt="a lot of color people" width="1000" height="300">
+        <h1><b>СОЦІОЛОГІЧНЕ ОПИТУВАННЯ ГРОМАДЯН  ЗАХІДНОЇ УКРАЇНИ</b></h1>
+        <p>Дане соціологічне опитування призначене для дослідження думки громадян України про довіру до державний діячів</p>
+        </header>
+        <main>
+            <form name="poll" action="https://formspree.io/yursem@meta.ua" method="POST">
+                <label for="user_name">Ваше ім'я</label>
+                <input type="text" name="name" placeholder="your name" id="user_name">
+                <br>
+                <br>
+                <label for="user_age">Ваш вік</label>
+                <input type="number" name="user_age" id="user_age" placeholder="your age">
+                <br>
+                <br>
+                <label for="sex">Ваща стать</label>
+                <input type="radio" name="sex" id="sex" value="Male">M
+                <input type="radio" name="sex" value="Female">F
+                <br>
+                <br>
+                <label for="user_city">Місце проживання</label>
+                <select name="city" id="user_city">
+                    <option>Львів</option>
+                    <option>Івано-Франківськ</option>
+                    <option>Тернопіль</option>
+                    <option>Чернівці</option>
+                    <option>Луцьк</option>
+                    </select>
+                    <label for="user_email">Ваша електронна пошта</label>
+                    <input type="email" name="email" id="user_email">
+                <br>
+                <br>
+                <hr>
+                <ol>
+                    <li><b>Якби вибори президента були завтра, за кого Ви б віддали свій голос?</b></li>
+                    <br>
+                    <select name="names" multiple size="7">
+                    <option>Порошенко</option>
+                    <option>Тимошенко</option>
+                    <option>Яйценюк</option>
+                    <option>Гройсман</option>
+                    <option>Кличко</option>
+                    <option>Гриценко</option>
+                    <option>Інший варіант</option>
+                    </select>
+                    <br>
+                    <br>
+                    <li><b>Якій політичній партії Ви довіряєте?</b></li>
+                    <br>
+                    <select name="names">
+                        <option>Блок П.Порошенко</option>
+                        <option>ВО "Батьківщина"</option>
+                        <option>Народний фронт</option>
+                        <option>ВО "Cвобода"</option>
+                        <option>Громадянська позиція</option>
+                    </select>
+                    <br>
+                    <br>
+                    <li><b>Чи Ви плануєте брати участь у голосуванні на наступних виборах?</b></li>
+                    <br>
+                    <input type="checkbox" value="yes">Так
+                    <input type="checkbox" value="no">НІ
+                    <input type="checkbox" value="don't know">Не знаю
+                    <br>
+                    <br>
+                    <li><b>Ваші коментарі</b></li>
+                    <br>
+                    <textarea name="comments"></textarea>
+                </ol>
+                <h3>Для пітвердження опитування відправте Ваші відповіді</h3>
+                <label for="user_answers">Відправка відповіді</label>
+                <input type="submit" value="Відправити">
+            </form>
+            <br>
+            <h4>Дані останнього соціологічного опитування</h4>
+                        <table border="1px">
+                <caption>Peзультат опитування симпатій громадян 14 вересня 2016р. Вибори президента</caption>
+                <tr>
+                    <th>Прізвище</th>
+                    <th>Результат у %</th>
+                </tr>
+                <tr>
+                    <td>Тимошенко</td>
+                    <td>13,2</td>
+                </tr>
+                <tr>
+                    <td>Порошенко</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>Бойко</td>
+                    <td>11,7</td>
+                </tr>
+                <tr>
+                    <td>Ляшко</td>
+                    <td>7,6</td>
+                </tr>
+            </table>
+        </main>
+        <br>
+        <br>
+    <footer>
+        <h4><b>Актуальна пісня сьогодення</b></h4>
+        <audio src="Ux3ZQOOx0SMz.128.mp3" controls="controls">Актуальна пісня сьогодення</audio>
+    </footer>
+</body>
+</html>
